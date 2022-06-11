@@ -1,0 +1,39 @@
+#tablacatalogo{
+    margin: 0;
+    width: 500px;
+    height: 400px;
+    background-color: #e1e689; 
+    margin-left: auto;
+    margin-right: auto;
+vertical-align: middle;
+border: 3px solid black;
+}
+#produc{
+    background-color: rgb(185, 243, 49);
+padding: 10px;
+margin: 100px auto;
+width: 400px;
+list-style: none;
+}
+
+#buscar{
+    background-color: rgb(218, 167, 134);
+padding: 10px;
+margin: 100px auto;
+width: 400px;
+list-style: none;
+
+}
+input[type=text], input[type=password]{
+    padding: 10px;
+    width: 380px;
+    list-style: none;
+
+}
+input[type=submit], input[type=reset]{
+    border: 1;
+    background-color: rgb(140, 202, 115);
+    padding: 10px 20px;
+    list-style: none;
+
+}

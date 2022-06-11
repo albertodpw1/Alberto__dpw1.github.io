@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+#idboton2{
+    border: 0;
+    background-color: rgb(208, 255, 0);
+    padding: 10px 20px;
+}
+a{
+       
+    background-color: rgb(199, 37, 37);
+  
+    text-decoration: none;
+
+}
+
+body{
+    background: rgb(225, 221, 233);   
+    align-content: center;
+}
+form{
+background-color: rgb(208, 245, 121);
+padding: 10px;
+margin: 100px auto;
+width: 400px;
+}
+input[type=text], input[type=password]{
+    padding: 10px;
+    width: 380px;
+}
+input[type=submit]{
+    border: 0;
+    background-color: rgb(174, 255, 0);
+    padding: 10px 20px;
+}
+#idboton2{
+    border: 0;
+    background-color: rgb(208, 241, 18);
+    padding: 10px 20px;
+}
+
+

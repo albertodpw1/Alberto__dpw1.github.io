@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(225, 221, 233);   
+}
+
+#header{
+margin: auto;
+width: 700;
+background-color: #d8fab1;
+}
+
+table, th, td{
+    border: 1px solid rgb(13, 48, 24);
+}
+#negocio{
+    margin: auto;
+    width: 600px;
+    background-color: #d8fab1; 
+    margin-right: auto;
+    vertical-align: middle;
+    border: solid black;
+    background-color: #d8fab1; 
+    position: relative;
+}
+.button {
+border-radius: 3px;
+padding: auto;
+color: black;
+}
+ul, ol{
+    list-style: none;
+}
+
+.menu li a{
+    background-color:#000;
+    color:#fff;
+    text-decoration:rgb(13, 48, 24);
+    display: block;
+    text-align: center;
+}
+.general{
+    display: flex;
+}
+.container{
+    width: grid;
+ 
+    height: 400;
+    border: solid black;
+}
+
+
+#bloquenegocio{
+  
+    margin-right: auto;
+vertical-align: middle;
+border: solid black;
+background-color: #d8fab1; 
+
+}
+#tablacatalogo{
+    margin: auto;
+    width: 400px;
+    height: 1000px;
+    background-color: #a4a0e5; 
+    margin-left: auto;
+    margin-right: auto;
+vertical-align: middle;
+border: 3px solid black;
+}
+
+#form-registro{
+    margin: auto;
+    width: 600px;
+    background-color: #d8fab1;
+}
+#bloquesolicitud{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: #d8cc28; 
+    margin-left: auto;
+    margin-right: auto;
+vertical-align: middle;
+}
+#tablaproductos{
+
+  
+    background-color: #d8cc28; 
+    
+
+}
+#nombre{
+    text-align: center;
+}
+.hor{
+    width: 100%;
+    height: 50px;
+    list-style: none;
+display: flex;
+justify-content: space-around;
+box-shadow:5px 5px 10px #000;
+position: fixed;
+box-shadow: black;
+}
+#productosvendedor{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+.hor li a{
+    background-color:white;
+
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+}
+
+.hor li a:hover{
+background-color:rgb(187, 233, 79);
+}
+.footer{
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin: auto;
+    align-items: center;
+    }
+
+.form-registro {
+    display:block;
+    margin: auto;
+}

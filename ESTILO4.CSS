@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+#idboton2{
+    border: 0;
+    background-color: blue;
+    padding: 10px 20px;
+}
+
+body{
+    background: rgb(225, 221, 233);   
+    align-content: center;
+}
+form{
+background-color: rgb(208, 245, 121);
+padding: 10px;
+margin: 100px auto;
+width: 400px;
+}
+input[type=text], input[type=password]{
+    padding: 10px;
+    width: 380px;
+}
+input[type=submit], input[type=reset]{
+    border: 1;
+    background-color: rgb(140, 202, 115);
+    padding: 10px 20px;
+}
+#idboton2{
+    border: 1;
+    background-color: rgb(117, 206, 129);
+    padding: 10px 20px;
+}
+
+#tablacatalogo{
+    margin: auto;
+    width: 400px;
+    height: 1000px;
+    background-color: #a4a0e5; 
+    margin-left: auto;
+    margin-right: auto;
+vertical-align: middle;
+border: 3px solid black;
+}

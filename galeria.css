@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+.slider ul{
+    display: flex;
+    animation: cambio 10s infinite
+    alternate linear;
+    animation-direction: alternate-reverse;
+    width: 400%;
+    padding: 0%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(47, 232, 139), 0 0 5px rgb(112, 246, 190);
+    text-align: center;
+}
+.onclick {
+    display: block;
+    width: 67px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: rgb(71, 71, 135);
+}
+
+div.galeria {
+    margin: 10px 20px;
+box-shadow:  0 4px 8px 0 rgb(92, 151, 188), 0 6px 20px 0 rgba(0,0,0,0.19);
+float:left;
+width: 400px;
+align-content: center;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+div.galeria:hover{
+border: 1px solid lightcoral;
+transform: rotate(-3deg);
+
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+  
+}
+
+div.foto {
+    display: flex;
+
+}
+.galeria{
+    width: 100%;
+    margin: auto;
+}
+
+.gal{
+    color:black;
+}
+
+.slider2{
+width: 500px;
+height: 300px;
+margin: auto;
+}
+
+.slider2 img{
+    position: absolute;
+}
